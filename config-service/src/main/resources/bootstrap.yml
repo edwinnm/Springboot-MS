@@ -6,10 +6,11 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/edwinnm/MicroServices-Springboot
+          uri: https://github.com/edwinnm/Springboot-MS
           searchPaths: config-data
           username: ${GIT_USER}
           password: ${GIT_PASSWORD}
+          default-label: "main"
   security:
     user:
       name: root
